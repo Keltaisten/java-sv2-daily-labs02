@@ -3,8 +3,8 @@ package da04;
 public class GasStation {
     int price;
 
-    public GasStation(int prize) {
-        this.price = prize;
+    public GasStation(int price) {
+        this.price = price;
     }
 
     public int refueling(Car car, int liter){
